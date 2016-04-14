@@ -1,0 +1,30 @@
+{
+  "name": "koa-formidable-",
+  "author": {
+    "name": "woooha",
+    "email": "lizouzt@gmail.com"
+  },
+  "version": "1.0.1",
+  "description": "Formidable middleware for Koa",
+  "keywords": [
+    "koa",
+    "formidable",
+    "form",
+    "file upload",
+    "form-data",
+    "multipart",
+    "bodyparser"
+  ],
+  "homepage": "https://github.com/lizouzt/koa-formidable",
+  "dependencies": {
+    "formidable": "^1.0.17",
+  },
+  "bugs": "https://github.com/lizouzt/koa-formidable/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lizouzt/koa-formidable.git"
+  },
+  "engines": {
+    "node": ">=3.0"
+  }
+}
