@@ -1,4 +1,4 @@
-# koa-formidable
+# koa-formidable-yield
 
 [![Build Status](https://api.travis-ci.org/lizouzt/koa-formidable.svg?branch=master)](https://travis-ci.org/lizouzt/koa-formidable)
 
@@ -8,7 +8,7 @@
 
 ## API
 
-`var formidable = require('koa-formidable')`
+`var formidable = require('koa-formidable-yield')`
 
 ### formidable(opts)
 
@@ -21,7 +21,7 @@ Returns the formidable middleware that parses the incoming request and adds the 
 **Example:**
 
 ```js
-var formidable = require('koa-formidable')
+var formidable = require('koa-formidable-yield')
 app.use(formidable())
 ```
 
@@ -37,7 +37,7 @@ Parse the incoming request manually.
 **Example:**
 
 ```js
-var formidable = require('koa-formidable')
+var formidable = require('koa-formidable-yield')
 app.use(function*(next) {
   var form = yield formidable.parse(this);
   
