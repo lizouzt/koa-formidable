@@ -1,8 +1,8 @@
 # koa-formidable
 
-[Formidable](https://github.com/felixge/node-formidable) middleware for Koa
+[![Build Status](https://api.travis-ci.org/lizouzt/koa-formidable.svg?branch=master)](https://travis-ci.org/lizouzt/koa-formidable)
 
-[![NPM][npm]](https://npmjs.org/package/koa-formidable)
+[Formidable](https://github.com/felixge/node-formidable) middleware for Koa
 
 **Breaking Change in 1.0.0:** both `body` and `files` are now added to Koa's `.request` instead of modifying the http request (`.req`) directly.
 
