@@ -17,7 +17,7 @@
   ],
   "homepage": "https://github.com/lizouzt/koa-formidable",
   "dependencies": {
-    "formidable": "^1.0.17",
+    "formidable": "^1.0.17"
   },
   "bugs": "https://github.com/lizouzt/koa-formidable/issues",
   "repository": {
